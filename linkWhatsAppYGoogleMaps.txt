@@ -1,0 +1,9 @@
+whatsapp: 
+
+https://api.whatsapp.com/send?phone=04145391699
+
+https://api.whatsapp.com/send?phone=04145391699&text=Hola , necesito de sus servicios
+
+Google Maps: 
+
+https://g.page/megacopias-maracaibo?share
