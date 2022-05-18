@@ -1,10 +1,8 @@
-import React , {useState} from 'react';
+import React , {useState} from 'react'
 import logo from './../../images/logo.png';
 import { Link } from 'react-router-dom';
 
-
-const NavBar = () => {
-
+export const NavMoreServices = () => {
     const [nav , setNav] = useState(false);
 
     const changeBackground = () => {
@@ -14,10 +12,8 @@ const NavBar = () => {
             setNav(false);
         }
     }
-    window.addEventListener('scroll' , changeBackground);
-
-    return ( 
-        <nav className={nav ? 'nav active' : 'nav'}>
+  return (
+    <nav className={nav ? 'nav active' : 'nav'}>
             <a href='#' className='logo'>
                 <img src={logo} alt=''/>
             </a>
@@ -26,15 +22,14 @@ const NavBar = () => {
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><a href='#main'  className={'active'}>Inicio</a></li>
-                <li><a href='#features1'>Los mas vendidos</a></li>
-                <li><a href='#about'>¿Donde estamos?</a></li>
-                <li><a href='#contact'>Contactanos</a></li>
-                <li><Link to="/more-services" className='btn-btn'>Mas serivicios</Link></li>
-
+                <li><Link to="/" className='btn-btn'>Inicio</Link></li>
+                <li><a href='#printcopy'>Impresion y copiado</a></li>
+                <li><a href='#stationery'>Papeleria</a></li>
+                <li><a href='#sublimate'>Sublimado</a></li>
+                <li><a href='#labeled'>Rotulado</a></li>
+                <li><a href='#bound'>Encuadernado</a></li>
+                <li><a href='#digitalservices'>Digitales</a></li>
             </ul>
         </nav>
-    );
+  )
 }
- 
-export default NavBar;

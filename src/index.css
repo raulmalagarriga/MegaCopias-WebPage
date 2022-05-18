@@ -143,7 +143,7 @@ nav .menu-btn,
     cursor: pointer;
 }
 .btn-btn{
-	width:110px;
+	width:160px;
 	height: 40px;
 	display: flex;
 	justify-content: center;
@@ -249,6 +249,9 @@ nav .menu-btn,
     padding-top: 40px ;
     background-color: #ffffff;
     margin-bottom: 40px;
+}
+.f-container{
+    margin-top: 104rem;
 }
 .a-container{
     display: flex;

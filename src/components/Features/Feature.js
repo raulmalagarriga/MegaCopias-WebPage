@@ -1,11 +1,11 @@
 import React from 'react';
 import FeatureBox from './FeatureBox';
-import featureimage from './../../images/feature_1.png';
-import featureimage2 from './../../images/feature_2.png';
-import featureimage3 from './../../images/feature_3.png';
-import featureimage4 from './../../images/feature_4.png';
-import featureimage5 from './../../images/feature_5.png';
-import featureimage6 from './../../images/feature_6.png';
+import featureimage from './../../images/Ploteo.png';
+import featureimage2 from './../../images/Copias.png';
+import featureimage3 from './../../images/Impresion.png';
+import featureimage4 from './../../images/Rotulado.png';
+import featureimage5 from './../../images/Plastificado.png';
+import featureimage6 from './../../images/Encuadernado.png';
 
 
 const Feature = () => {
