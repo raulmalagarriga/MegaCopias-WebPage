@@ -136,19 +136,21 @@ nav .menu-btn,
 	display: flex;
 	justify-content: center;
     align-items: center;
-    background-color: #00b7ff;
-    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
-    border-radius: 10px;
-	color:#ffffff;
+    background-color: #ffffff;
+    border-radius: 3px;
+	color:#000000;
+    font-family: calibri;
+    font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: 500;
+    letter-spacing: 1px;
 }
 .btn-btn:hover{
-	background-color: #0099ff;
-    transition: all ease 0.5s;
-    color: #ffffff;
+	background-color: #00b7ff;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+	transition: all ease 0.2s;
     cursor: pointer;
-}
-.c-container{
-    
 }
 
 .f-heading h1{
@@ -220,7 +222,7 @@ nav .menu-btn,
     margin-left: 4rem;
 }
 .about-image img{
-  width: 600px;
+  width: 900px;
 }
 
 #features{

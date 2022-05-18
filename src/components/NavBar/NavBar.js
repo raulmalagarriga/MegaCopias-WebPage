@@ -1,5 +1,6 @@
 import React , {useState} from 'react';
-import logo from '../images/logo.png';
+import logo from './../../images/logo.png';;
+
 
 const NavBar = () => {
 
@@ -25,9 +26,11 @@ const NavBar = () => {
             </label>
             <ul className='menu'>
                 <li><a href='#main'  className={'active'}>Inicio</a></li>
-                <li><a href='#features1'>Servicios</a></li>
+                <li><a href='#features1'>Los mas vendidos</a></li>
                 <li><a href='#about'>¿Donde estamos?</a></li>
                 <li><a href='#contact'>Contactanos</a></li>
+                <li><button className='btn-btn'>Mas serivicios</button></li>
+
             </ul>
         </nav>
     );

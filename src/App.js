@@ -1,9 +1,9 @@
 import React  from "react";
-import Header from "./components/Header";
-import Feature from "./components/Feature";
-import About from "./components/About";
-import Presentation from "./components/Presentation";
-import Contact from "./components/Contact";
+import Header from "./components/Header/Header";
+import Feature from "./components/Features/Feature";
+import About from "./components/About/About";
+import Presentation from "./components/Presentation/Presentation";
+import Contact from "./components/Contact/Contact";
 import aboutImage from "./images/about.jpg";
 
 

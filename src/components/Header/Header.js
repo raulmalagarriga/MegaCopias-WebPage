@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './NavBar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import NavBar from '../NavBar/NavBar';
 
 const Header = () => {
 
