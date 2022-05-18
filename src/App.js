@@ -6,7 +6,6 @@ import Presentation from "./components/Presentation/Presentation";
 import Contact from "./components/Contact/Contact";
 import aboutImage from "./images/about.jpg";
 
-
 const  App = () => {
   return (
     <div className="App">
