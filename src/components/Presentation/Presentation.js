@@ -11,10 +11,9 @@ const Presentation = () => {
 
      return ( 
          <div id='presentaion' data-aos="fade-down">
-            <h1>UI Presentation</h1>
-            <p>Lorem hdsj sjwo sdhsds sdlsdop sdj lorem lorel das sdad
-                dasda sdad lsjfjak 
-            </p>
+            <h1>Horario de trabajo</h1>
+            <h2>Horiario corrido de lunes a viernes</h2>
+            <h3>8:00 A.M - 3:30 P.M</h3>
          </div>
       );
  }

@@ -11,7 +11,12 @@ const  App = () => {
     <div className="App">
         <Header />
         <Feature />
-        <About  image={aboutImage} title='¿Donde estamos?' p='Maracaibo , Venezuela' button='Ubicanos'/>
+        <About  
+          image={aboutImage} 
+          title='¿Donde estamos?' 
+          p='Avenida 12 Entre calles 74 - 75, Maracaibo, Estado Zulia' 
+          button='Ubicanos'
+        />
         <Presentation />
         <Contact />
     </div>
