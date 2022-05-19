@@ -252,6 +252,7 @@ nav .menu-btn,
 }
 .f-container{
     margin-top: 104rem;
+    height: 142rem;
 }
 .a-container{
     display: flex;
@@ -432,9 +433,9 @@ nav .menu-btn,
 }
 
 .gmail{
-    width:260px;
+    width:200px;
 	height:35px;
-	background-color:#f8310e;
+	background-color:#fc6045;
 	color:#FFFFFF;
 	display: flex;
 	font-size: 0.9rem;
@@ -444,11 +445,14 @@ nav .menu-btn,
 	border-radius: 20px;
     font-weight: 500;
     transition: 0.4s ease-out;
+}
+.gmail:hover{
+    background-color:#ff2600;
 }
 .whatsapp{
     width:200px;
 	height:35px;
-	background-color:#3cdf0b;
+	background-color:#91f573;
 	color:#FFFFFF;
 	display: flex;
 	font-size: 0.9rem;
@@ -458,11 +462,14 @@ nav .menu-btn,
 	border-radius: 20px;
     font-weight: 500;
     transition: 0.4s ease-out;
+}
+.whatsapp:hover{
+    background-color:#3cff00;
 }
 .instagram{
     width:200px;
 	height:35px;
-	background-color:#00b7ff;
+	background-color:#C13584;
 	color:#FFFFFF;
 	display: flex;
 	font-size: 0.9rem;
@@ -473,8 +480,12 @@ nav .menu-btn,
     font-weight: 500;
     transition: 0.4s ease-out;
 }
-.contact-input a:hover{
-    background-color:#0099ff;
+.instagram:hover{
+    background-color:#ff0090;
+}
+.footer{
+    width: 100%;
+    align-self: flex-end;
 }
 @media(max-width:1190px){
 	#main{

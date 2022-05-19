@@ -1,5 +1,5 @@
 import React from 'react'
-//import Contact from '../Contact/Contact';
+import Contact from '../Contact/Contact';
 import { NavMoreServices } from '../NavBar/NavMoreServices'
 import featureimage from './../../images/Ploteo.png';
 import featureimage2 from './../../images/Copias.png';
@@ -12,7 +12,7 @@ import FeatureBox from './FeatureBox';
 export const MoreFeatures = () => {
   return (
       <>
-        <div className='App'>
+        
             <NavMoreServices />
             <div className='f-container'> 
                 <div id='features'>
@@ -35,7 +35,7 @@ export const MoreFeatures = () => {
                         </div>
                         <h2 id='sublimate'>Sublimado</h2>
                         <div className='a-container'>
-                            <FeatureBox image={featureimage4} title='Tasas' p='Rotulamos sus stickers perfectos para su marca'/>
+                            <FeatureBox image={featureimage4} title='Tazas' p='Rotulamos sus stickers perfectos para su marca'/>
                             <FeatureBox image={featureimage5} title='PPP' p='Plastificamos sus cedulas, licencias, menus...'/>
                             <FeatureBox image={featureimage6} title='Encuadernados' p='Los mejores encuadernados plasticos y metalicos de libretas, guias, cuadernos y mucho mas'/>
                         </div>
@@ -54,12 +54,14 @@ export const MoreFeatures = () => {
                         <h2 id='digitalservices'>Servicios digitales</h2>
                         <div className='a-container'>
                             <FeatureBox image={featureimage4} title='Diseño Grafico' p='Creamos tu marca, logo, digitalizamos tus ideas.'/>
-                            <FeatureBox image={featureimage5} title='Escaneado de documentos' p='Digitalizamos tus documentos y los guardamos a tu almacenamiento digital preferido.'/>
+                            <FeatureBox image={featureimage5} title='Escaneado de documentos' p='Digitalizamos tus documentos.'/>
                             <FeatureBox image={featureimage6} title='Transcripciones' p='Transcribimos sus documentos a la medida que usted necesite.'/>
                         </div>
                 </div>
             </div>
-        </div>
+            <div className='footer'>
+                <Contact />
+            </div>
     </>
   )
 }

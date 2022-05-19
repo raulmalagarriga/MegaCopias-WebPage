@@ -11,9 +11,10 @@ const Presentation = () => {
 
      return ( 
          <div id='presentaion' data-aos="fade-down">
-            <h1>Horario de trabajo</h1>
-            <h2>Horiario corrido de lunes a viernes</h2>
-            <h3>8:00 A.M - 3:30 P.M</h3>
+            {/* <h1>Horario de trabajo</h1> */}
+            <h1>Horiario de trabajo</h1>
+            <h2>Lunes a Viernes</h2>
+            <h3>8:00 A.M - 4:00 P.M</h3>
          </div>
       );
  }

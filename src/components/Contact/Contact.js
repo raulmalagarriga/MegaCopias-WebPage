@@ -6,7 +6,7 @@ const Contact = () => {
 
     const urlWs = 'https://api.whatsapp.com/send?phone=04145391699';
     const urlIg = 'https://www.instagram.com/megacopias/';
-    const urlG = '';
+    const urlG = 'https://mail.google.com/mail/?view=cm&fs=1&to=megacopias2@gmail.com';
     AOS.init({
         duration: 1000,
         once: true
@@ -17,9 +17,9 @@ const Contact = () => {
                 <h3>¡Envianos un mensaje!</h3>
                 <div className='contact-input'>
                     {/* <input type='email' placeholder='example@gmail.com' /> */}
-                    <a className='gmail' href={urlG} target='_blank' rel='noreferrer'>megacopias2@gmail.com</a>
-                    <a className='whatsapp' href={urlWs} target='_blank' rel='noreferrer'>whatsapp</a>
-                    <a className='instagram' href={urlIg} target='_blank' rel='noreferrer'>@megacopias</a>
+                    <a className='gmail' href={urlG} target='_blank' rel='noreferrer'>Gmail</a>
+                    <a className='whatsapp' href={urlWs} target='_blank' rel='noreferrer'>Whatsapp</a>
+                    <a className='instagram' href={urlIg} target='_blank' rel='noreferrer'>Instagram</a>
                 </div>
             </div>
         </>
