@@ -1,5 +1,5 @@
+/*Body html*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,600&family=Oswald&family=Roboto:wght@100;300&family=Work+Sans:wght@400;500;700&display=swap');
-
 html {
     scroll-behavior: smooth;
   }
@@ -39,6 +39,7 @@ input{
     outline: none;
     border: none;
 }
+/*NavBar - NavBarMoreServices - Header*/
 .logo img{
     width: 90px;
 }
@@ -125,6 +126,7 @@ nav .menu-btn,
     display: flex;
     margin-top: 40px;
 }
+/*General buttons*/
 .cv-btn{
 	width:110px;
 	height: 40px;
@@ -164,34 +166,14 @@ nav .menu-btn,
 	transition: all ease 0.2s;
     cursor: pointer;
 }
-
-.f-heading h1{
-    color:#FFFFFF;
-    font-size: 3rem;
-    margin: 0px;
-    padding: 0px;
-
-}
-.f-heading p{
-    color:rgba(247, 247, 247, 0.678);
-    font-size: 1rem;
-    margin: 0px;
-    padding: 0px;
-}
-.f-heading{
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: -80px;
-}
+/*About*/
   #about{
     margin-top:100px ;
 	width:100%;
 	height: 120vh;
-	/*background-color:#f3fdff;*/
 	box-sizing: border-box;
 	display: flex;
 	align-items: center;
-	/* justify-content: space-between; */
 	padding: 50px 5% 0px 5%;
 	position: relative;
 }
@@ -236,7 +218,7 @@ nav .menu-btn,
 .about-image img{
   width: 900px;
 }
-
+/*Feature - FeatureBox - MoreFeature*/
 #features{
     width:100%;
     height:100vh;
@@ -285,6 +267,12 @@ nav .menu-btn,
 .a-box:hover{
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
 }
+/*Fix contact in MoreFeatures*/
+.footer{
+    width: 100%;
+    align-self: flex-end;
+}
+/*Presentation*/
 #presentaion{
     padding-top: 30px;
     width:100%;
@@ -299,58 +287,10 @@ nav .menu-btn,
     font-size: 2rem;
     margin-left: 2rem;
 }
-
-
-#services{
-    width:100%;
-    height:100vh;
-    box-sizing: border-box;
-    font-family: calibri;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px ;
-}
-
-.s-heading h1{
-    color:#FFFFFF;
-    font-size: 3rem;
-    margin: 0px;
-    padding: 0px;
-
-}
-.s-heading p{
-    color:rgba(247, 247, 247, 0.678);
-    font-size: 1rem;
-    margin: 0px;
-    padding: 0px;
-}
-.s-heading{
-    text-align: center;
-    margin: 20px 0px;
-}
-.s-box{
-    background-color: #ffffff;
-    width:350px;
-    height: 470px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
-    position: relative;
-}
-.b-container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
-
-}
+/*FeatureBox*/
 .s-b-img{
     width: 100%;
     height: 50%;
-
 }
 .s-b-img img{
     width:100%;
@@ -375,7 +315,6 @@ nav .menu-btn,
     display: block;
     display: -webkit-box;
     max-width: 80%;
-    /* margin-top: 25px; */
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -399,8 +338,7 @@ nav .menu-btn,
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
-
-
+/*Contact*/
 #contact{
     background-color: #00b7ff;
 	display:flex;
@@ -431,7 +369,7 @@ nav .menu-btn,
 	text-align: center;
 	color:#242425;
 }
-
+/*Contact Buttons social media*/
 .gmail{
     width:200px;
 	height:35px;
@@ -483,10 +421,44 @@ nav .menu-btn,
 .instagram:hover{
     background-color:#ff0090;
 }
-.footer{
+/*PDF*/
+.pdf-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     width: 100%;
-    align-self: flex-end;
+    font-family: calibri;
+    background: #DDDDDD;
+    overflow-x: hidden;
 }
+.pdf-btn{
+	width:160px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    background-color: #b8b7b7;
+    border-radius: 3px;
+	color:#000000;
+    margin-top: 3px;
+    font-family: calibri;
+    font-size: 0.9rem;
+	text-transform: uppercase;
+	font-weight: 500;
+    letter-spacing: 1px;
+}
+.pdf-btn:hover{
+	background-color: #7e7e7e;
+    color:#DDDDDD;
+	transition: all ease 0.2s;
+    cursor: pointer;
+}
+.pagination{
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+/*Responsive settings*/
 @media(max-width:1190px){
 	#main{
 		background-size: 1150px !important;
@@ -525,11 +497,7 @@ nav .menu-btn,
     .a-b-img img{
 		object-fit:contain;
     }
-    
-    
-
 }
-
 @media(max-width:970px){
 	.main{
 		background-image: none !important;

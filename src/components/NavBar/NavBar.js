@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 
 const NavBar = () => {
-
     const [nav , setNav] = useState(false);
 
     const changeBackground = () => {
@@ -31,7 +30,7 @@ const NavBar = () => {
                 <li><a href='#about'>¿Donde estamos?</a></li>
                 <li><a href='#contact'>Contactanos</a></li>
                 <li><Link to="/more-services" className='btn-btn'>Mas serivicios</Link></li>
-
+                <li><Link to="/pdf" target='_blank' className='btn-btn'>Catalogo</Link></li>
             </ul>
         </nav>
     );
