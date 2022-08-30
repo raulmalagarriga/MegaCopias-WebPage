@@ -497,8 +497,8 @@ nav .menu-btn,
 		justify-content: center;
         padding-top: 0px;
         text-align: center;
-        margin-top: -24rem;
-        margin-left: 1.5rem;
+        margin-top: -18rem;
+        /* margin-left: 1rem; */
 	}
 	.about-text{
         width: 90%;
@@ -509,13 +509,10 @@ nav .menu-btn,
     .about-text p{
         width: 100%;
     }
-    #features{
-        /* margin-left: 1rem; */
-    }
 	#presentaion{
         /* display: none; */
-        margin-top: -20rem;
-        margin-left: 1.5rem;
+        margin-top: -15rem;
+        /* margin-left: 1.5rem; */
     }
     .f-container{
         margin-top: 5rem;

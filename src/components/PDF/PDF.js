@@ -6,7 +6,7 @@ export const PDF = () => {
 
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
-  const url = 'PDF.pdf';
+  const url = 'NuestrosTrabajos.pdf';
 
   /*PDF worker */
   pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/legacy/build/pdf.worker.min.js`;

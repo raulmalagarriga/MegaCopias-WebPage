@@ -29,7 +29,7 @@ const NavBar = () => {
                 <li><a href='#about'>¿Donde estamos?</a></li>
                 <li><a href='#contact'>Contactanos</a></li>
                 <li><Link to="/more-services" className='btn-btn'>Mas serivicios</Link></li>
-                <li><Link to="/pdf" target='_blank' className='btn-btn'>Catalogo</Link></li>
+                <li><Link to="/pdf" target='_blank' className='btn-btn'>Trabajos</Link></li>
             </ul>
         </nav>
     );
